@@ -1,0 +1,628 @@
+[
+  {
+    "nom": "UM6P — FMS (Faculté Médecine et Sciences de la Santé)",
+    "cat": "Médecine & Santé",
+    "villes": [
+      "Benguerir"
+    ],
+    "ouv": null,
+    "clo": "2026-06-24",
+    "lien": "https://www.um6p.ma/fms",
+    "modalite": "Sélection sur dossier",
+    "concours": null,
+    "note": "Médecine, Pharmacie, Soins Infirmiers, Kinésithérapie. Université Mohammed VI Polytechnique. Dossier en ligne sur le site UM6P."
+  },
+  {
+    "nom": "UM6P — EMINES (École Mines & Énergie)",
+    "cat": "Ingénierie",
+    "villes": [
+      "Benguerir"
+    ],
+    "ouv": null,
+    "clo": "2026-06-01",
+    "lien": "https://www.emines-ingenieur.org",
+    "modalite": "Sélection sur dossier",
+    "concours": null,
+    "note": "Sciences & Technologie. Génie des mines, énergie, matériaux. Université Mohammed VI Polytechnique."
+  },
+  {
+    "nom": "UM6P — Computer Sciences",
+    "cat": "Ingénierie",
+    "villes": [
+      "Benguerir"
+    ],
+    "ouv": null,
+    "clo": "2026-06-24",
+    "lien": "https://www.um6p.ma/cs",
+    "modalite": "Sélection sur dossier",
+    "concours": null,
+    "note": "Informatique, Intelligence Artificielle, Data Science. Bac Maths/PC/Tech. Université Mohammed VI Polytechnique."
+  },
+  {
+    "nom": "UM6P — Systèmes Agri-Environnementaux",
+    "cat": "Agronomie",
+    "villes": [
+      "Benguerir"
+    ],
+    "ouv": null,
+    "clo": "2026-06-24",
+    "lien": "https://www.um6p.ma/agri",
+    "modalite": "Sélection sur dossier",
+    "concours": null,
+    "note": "Agronomie, environnement, systèmes agricoles durables. Université Mohammed VI Polytechnique."
+  },
+  {
+    "nom": "UM6P — IST&I (Génie Chimique, Minéralogie & Biotechnologie)",
+    "cat": "Ingénierie",
+    "villes": [
+      "Benguerir"
+    ],
+    "ouv": null,
+    "clo": "2026-06-24",
+    "lien": "https://www.um6p.ma/isti",
+    "modalite": "Sélection sur dossier",
+    "concours": null,
+    "note": "Génie Chimique, Minéralogie et Biotechnologie. Bac scientifique requis. Université Mohammed VI Polytechnique."
+  },
+  {
+    "nom": "UM6P — SAP+D (Architecture & Design)",
+    "cat": "Architecture",
+    "villes": [
+      "Benguerir"
+    ],
+    "ouv": null,
+    "clo": "2026-04-20",
+    "lien": "https://www.um6p.ma/sapd",
+    "modalite": "Sélection sur dossier + portfolio",
+    "concours": null,
+    "note": "Architecture, urbanisme, design. Dossier + portfolio artistique. Université Mohammed VI Polytechnique."
+  },
+  {
+    "nom": "UM6P — SASE (Applied Sciences & Business)",
+    "cat": "Science & Technologie",
+    "villes": [
+      "Benguerir"
+    ],
+    "ouv": null,
+    "clo": "2026-04-20",
+    "lien": "https://www.um6p.ma/sase",
+    "modalite": "Sélection sur dossier",
+    "concours": null,
+    "note": "Sciences appliquées et business. Pôle Science & Technologie UM6P. Université Mohammed VI Polytechnique."
+  },
+  {
+    "nom": "UM6P — SHBM (Hospitality Business & Management)",
+    "cat": "Commerce & Gestion",
+    "villes": [
+      "Benguerir"
+    ],
+    "ouv": null,
+    "clo": "2026-04-20",
+    "lien": "https://www.um6p.ma/shbm",
+    "modalite": "Sélection sur dossier + entretien",
+    "concours": null,
+    "note": "Hôtellerie, management, restauration. Toutes séries bac. Entretien de motivation. Université Mohammed VI Polytechnique."
+  },
+  {
+    "nom": "UM6P — FGSES (Économie, Sciences Politiques & Relations Internationales)",
+    "cat": "Sciences Po",
+    "villes": [
+      "Benguerir"
+    ],
+    "ouv": null,
+    "clo": "2026-03-15",
+    "lien": "https://www.um6p.ma/fgses",
+    "modalite": "Sélection sur dossier + entretien",
+    "concours": null,
+    "note": "Économie, Sciences Politiques, Relations Internationales. Toutes séries bac. Dossier + entretien oral. Université Mohammed VI Polytechnique."
+  },
+  {
+    "nom": "Facultés Accès Ouvert (FLSH, FSJES, FST, FS)",
+    "cat": "Université — Accès ouvert",
+    "villes": [
+      "Toutes universités du Maroc"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://www.cursussup.gov.ma",
+    "modalite": "Accès ouvert",
+    "concours": null,
+    "note": "Inscription directe sur dossier bac. 29 jadzows communs : Lettres, Droit/Éco, Sciences, Sciences & Techniques. Pas de concours."
+  },
+  {
+    "nom": "IAV Hassan II — APESA",
+    "cat": "Agronomie",
+    "villes": [
+      "Rabat"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "http://apesa.iav.ac.ma",
+    "modalite": "Sélection + écrit + oral",
+    "concours": null,
+    "note": "Bac Maths A/B, SVT, PC, Agri, S français. Sélection sur notes + écrit (Maths/PC/SVT) + oral. Année prépa APESA avant cycle ingénieur 5 ans."
+  },
+  {
+    "nom": "ENAM — École Nationale d'Agriculture",
+    "cat": "Agronomie",
+    "villes": [
+      "Meknès"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://concours.enameknes.net",
+    "modalite": "Sélection + écrit",
+    "concours": null,
+    "note": "Bac Maths A/B, SVT, PC, Agri, S français. Sélection : 75% national + 25% régional + écrits (Maths, PC, SVT). Âge ≤23 ans."
+  },
+  {
+    "nom": "ENFI — École Nationale Forestière des Ingénieurs",
+    "cat": "Agronomie",
+    "villes": [
+      "Salé"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://www.enfi.ac.ma",
+    "modalite": "Sélection + écrit + aptit. physiques",
+    "concours": null,
+    "note": "Bac scientifique. Accès S1 direct sur bac ou via CNC pour S3. Sélection + écrits + épreuves physiques (Seyko). Spécialités forêts, environnement, géomatique."
+  },
+  {
+    "nom": "CHA — Complexe Horticole d'Agadir",
+    "cat": "Agronomie",
+    "villes": [
+      "Agadir"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://fpa-concours.agriculture.gov.ma",
+    "modalite": "Sélection + écrit",
+    "concours": null,
+    "note": "Technicien Spécialisé 2 ans. Bac Agri/SVT/PC. Sélection sur note bac + épreuves écrites. Formation horticulture et espaces verts."
+  },
+  {
+    "nom": "ENA — Écoles Nationales d'Architecture (réseau)",
+    "cat": "Architecture",
+    "villes": [
+      "Rabat",
+      "Marrakech",
+      "Fès",
+      "Tétouan",
+      "Agadir",
+      "Oujda"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://www.concoursena.ma",
+    "modalite": "Sélection + écrit + épreuve plastique",
+    "concours": null,
+    "note": "Toutes séries bac, moyenne ≥12, âge ≤22 ans. Sélection 75% national + 25% régional. Écrit : QCM 50min (60%) + Dessin 60min (40%). 100 DH frais dossier. Via www.concoursena.ma"
+  },
+  {
+    "nom": "INAU — Institut National d'Aménagement et d'Urbanisme",
+    "cat": "Architecture",
+    "villes": [
+      "Rabat"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://www.inau.ac.ma",
+    "modalite": "Sélection + écrit",
+    "concours": null,
+    "note": "Bac Maths A/B, SVT, PC, Agri, Éco, Tech (moyenne ≥12, âge ≤21). Sélection 50% national + 50% régional + 2 écrits : Synthèse 1h + Analyse stats/cartes 1h. 100 DH frais."
+  },
+  {
+    "nom": "ENCG — Écoles Nationales de Commerce et Gestion (réseau)",
+    "cat": "Commerce & Gestion",
+    "villes": [
+      "Casablanca",
+      "Agadir",
+      "Fès",
+      "Oujda",
+      "Marrakech",
+      "Tanger",
+      "Séttat",
+      "El Jadida",
+      "Dakhla",
+      "Béni Mellal",
+      "Meknès"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://www.cursussup.gov.ma",
+    "modalite": "Sélection + écrit (TAFEM)",
+    "concours": null,
+    "note": "Toutes séries bac. Sélection : 75% national + 25% régional. Puis test TAFEM (aptitudes Commerce/Gestion). 11 écoles, mêmes conditions. Via cursussup.gov.ma"
+  },
+  {
+    "nom": "ISCAE — Institut Supérieur Commerce et Administration des Entreprises",
+    "cat": "Commerce & Gestion",
+    "villes": [
+      "Casablanca"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://www.groupeiscae.ma",
+    "modalite": "Sélection + écrit + oral",
+    "concours": null,
+    "note": "CPGE Économie/Commerce (2 ans) : Bac Maths/PC/SVT/Éco, âge ≤23 ans. Sélection + écrits (Maths, Langues, Culture gén.) + oral. Diplôme Méhend sllk Idara après 3 ans. Via www.groupeiscae.ma"
+  },
+  {
+    "nom": "FMP / FMD — Facultés Médecine, Pharmacie, Odontologie (réseau)",
+    "cat": "Médecine & Santé",
+    "villes": [
+      "Rabat",
+      "Casablanca",
+      "Marrakech",
+      "Fès",
+      "Oujda",
+      "Tanger",
+      "Agadir",
+      "Béni Mellal"
+    ],
+    "ouv": null,
+    "clo": "2026-07-15",
+    "lien": "https://www.cursussup.gov.ma",
+    "modalite": "Sélection + écrit",
+    "concours": "Septembre 2026",
+    "note": "Bac Maths/SVT/PC (année en cours ou précédente). Sélection : 75% national + 25% régional. Écrit : Bio (coef 1), PC (1), Chimie (1), Maths (1) — 3h. Note < 5/20 dans une matière = éliminatoire. Via www.cursussup.gov.ma"
+  },
+  {
+    "nom": "ISPITS — Instituts Supérieurs des Professions Infirmières et Techniques de Santé",
+    "cat": "Médecine & Santé",
+    "villes": [
+      "Plusieurs villes (national)"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "http://ispits.sante.gov.ma",
+    "modalite": "Sélection + écrit + oral",
+    "concours": null,
+    "note": "Bac SVT ou PC. 25% régional + 75% national. Écrits : Jdwl (coef 2, 2h) + Français (coef 1, 1h). Puis oral final. 3 ans → Licence infirmière/tech santé. Via www.sante.gov.ma et ispits.sante.gov.ma"
+  },
+  {
+    "nom": "I3S — Institut Supérieur des Sciences de la Santé",
+    "cat": "Médecine & Santé",
+    "villes": [
+      "Settat"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://www.uhp.ac.ma",
+    "modalite": "Sélection + écrit",
+    "concours": null,
+    "note": "Bac SVT/PC. Sélection sur notes bac + épreuves Bio, PC, Chimie. Formations paramédicales et sciences santé."
+  },
+  {
+    "nom": "ENSA — Écoles Nationales des Sciences Appliquées (réseau)",
+    "cat": "Ingénierie",
+    "villes": [
+      "Tanger",
+      "Tétouan",
+      "Agadir",
+      "Marrakech",
+      "Béni Mellal",
+      "Safi",
+      "Khouribga",
+      "Al Hoceima",
+      "El Jadida",
+      "Berrechid",
+      "Oujda",
+      "Fès",
+      "Kénitra",
+      "Laâyoune"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://www.cursussup.gov.ma",
+    "modalite": "Sélection + écrit (CNC)",
+    "concours": null,
+    "note": "Bac Maths/PC/Tech. Sélection S1 : 75% national + 25% régional + QCM. Accès S3 via concours CNC. 14 écoles, mêmes conditions. Via cursussup.gov.ma"
+  },
+  {
+    "nom": "ENSAM — Écoles Nationales Supérieures des Arts et Métiers (réseau)",
+    "cat": "Ingénierie",
+    "villes": [
+      "Meknès",
+      "Casablanca",
+      "Rabat"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://www.cursussup.gov.ma",
+    "modalite": "Sélection + écrit (CNC)",
+    "concours": null,
+    "note": "Bac Maths/PC/Tech. Sélection S1 : 75% national + 25% régional. Accès S3 via CNC. 3 écoles, même réseau ENSAM. Spécialités : Génie mécanique, électrique, industriel, Civil, IA."
+  },
+  {
+    "nom": "ENSCK — École Nationale Supérieure de Chimie de Kénitra",
+    "cat": "Ingénierie",
+    "villes": [
+      "Kénitra"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://www.uit.ac.ma/ENSC",
+    "modalite": "Sélection + écrit",
+    "concours": null,
+    "note": "Bac Maths/PC. 75% national + 25% régional. Écrits : Maths, PC, Chimie, Sciences Physiques. Accès S1 direct. 5 ans → diplôme ingénieur chimiste."
+  },
+  {
+    "nom": "EST — Écoles Supérieures de Technologie (réseau national)",
+    "cat": "Technologie",
+    "villes": [
+      "Casablanca",
+      "Fès",
+      "Salé",
+      "Meknès",
+      "Agadir",
+      "Safi",
+      "Errachidia",
+      "El Jadida",
+      "Kénitra",
+      "Oujda",
+      "Khouribga",
+      "Khénifra",
+      "Béni Mellal",
+      "Nador",
+      "Laâyoune",
+      "Dakhla",
+      "Al Hoceima",
+      "Tétouan",
+      "Ifrane",
+      "Sidi Slimane",
+      "Guelmim"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://www.cursussup.gov.ma",
+    "modalite": "Sélection sur dossier bac",
+    "concours": null,
+    "note": "Bac scientifique ou équivalent. Sélection : 75% national + 25% régional sur moyenne bac. Pas de concours écrit. DUT 2 ans (4 semestres). 21 villes, mêmes conditions. Via cursussup.gov.ma"
+  },
+  {
+    "nom": "ENSET Mohammedia — DUT Administration",
+    "cat": "Technologie & Éducation",
+    "villes": [
+      "Mohammedia"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "http://entissab.univh2c.ma/precandenset",
+    "modalite": "Sélection + écrit (60%) + oral (40%)",
+    "concours": null,
+    "note": "Bac Éco/Gest ou scientifique. Sélection 60% sur notes bac. Écrits : Administration des entreprises (2h, coef 2) + Français (1h, coef 1). Oral : entretien admission. Via entissab.univh2c.ma"
+  },
+  {
+    "nom": "ISIC — Institut Supérieur de l'Information et Communication",
+    "cat": "Médias & Communication",
+    "villes": [
+      "Rabat"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://www.isic.ac.ma",
+    "modalite": "Sélection + écrit + oral",
+    "concours": null,
+    "note": "Toutes séries bac, moyenne ≥20/14, âge 17-25 ans. Sélection sur résultats + écrits (Arabe, Français, Anglais) + oral. Dossier PDF ≤ 3Mo. Via www.isic.ac.ma"
+  },
+  {
+    "nom": "ESI — École des Sciences de l'Information",
+    "cat": "Médias & Communication",
+    "villes": [
+      "Rabat"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://www.esi.ac.ma",
+    "modalite": "Sélection + écrit (CNC)",
+    "concours": null,
+    "note": "Bac scientifique ou informatique. Accès S1 via CNC pour S3. 10% des places ouvertes aux bacheliers avec bac info/sci + mention Bien. Via www.esi.ac.ma"
+  },
+  {
+    "nom": "ESRFT — École Sup Roi Fahd de Traduction",
+    "cat": "Médias & Communication",
+    "villes": [
+      "Tanger"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://esrft.uae.ac.ma",
+    "modalite": "Sélection sur dossier",
+    "concours": null,
+    "note": "Principalement pour licenciés en langues/sciences/éco. Sélection sur dossier : notes, mizan, diplôme. Langues : Arabe–Français, Arabe–Anglais, Arabe–Espagnol, Arabe–Allemand."
+  },
+  {
+    "nom": "ISIT — Institut Supérieur International du Tourisme",
+    "cat": "Tourisme & Hôtellerie",
+    "villes": [
+      "Tanger"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://www.concours.isitt.ma",
+    "modalite": "Sélection + écrit + oral",
+    "concours": null,
+    "note": "Toutes séries bac, moyenne ≥20/14, âge ≤25 ans. Sélection + Écrits (Culture gén., Langues, Compta) + Oral. 3 filières : Tourisme, Hôtellerie-Restauration, Gestion touristique. Via www.concours.isitt.ma"
+  },
+  {
+    "nom": "ISEM — Institut Supérieur des Études Maritimes",
+    "cat": "Pêche & Maritime",
+    "villes": [
+      "Casablanca"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://www.isem.ac.ma",
+    "modalite": "Sélection + écrit + oral",
+    "concours": null,
+    "note": "Bac Maths/PC/SVT. Concours : épreuves écrites + entretien + aptitude physique. Formation officiers marine marchande. 5 ans → Brevet officier."
+  },
+  {
+    "nom": "ISPM — Institut Supérieur des Pêches Maritimes",
+    "cat": "Pêche & Maritime",
+    "villes": [
+      "Agadir"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://www.ispm.ac.ma",
+    "modalite": "Sélection + écrit",
+    "concours": null,
+    "note": "Bac Maths/PC/SVT/Tech. Sélection sur dossier + écrits. Pêche maritime, aquaculture, navigation."
+  },
+  {
+    "nom": "Instituts Sciences du Sport (IRFCJS / ISSS / ISSF / IMS)",
+    "cat": "Sport & Jeunesse",
+    "villes": [
+      "Rabat (IRFCJS)",
+      "Settat (ISSS)",
+      "Fès (ISSF)",
+      "Kénitra (IMS)"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://www.cursussup.gov.ma",
+    "modalite": "Sélection + écrit + aptit. physiques + oral",
+    "concours": null,
+    "note": "Toutes séries bac. Épreuves écrites + tests d'aptitudes physiques + entretien oral. Mêmes conditions pour les 4 instituts. Formation cadres sport et animation."
+  },
+  {
+    "nom": "ENS — Écoles Normales Supérieures (réseau)",
+    "cat": "Éducation",
+    "villes": [
+      "Rabat",
+      "Fès",
+      "Marrakech",
+      "Meknès"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://www.cursussup.gov.ma",
+    "modalite": "Sélection + écrit (CNC)",
+    "concours": null,
+    "note": "Bac Maths/PC selon filière. Accès via CNC après 2 ans de CPGE ou S1 direct sur bac. Formation professeurs enseignement supérieur. 4 écoles, mêmes conditions."
+  },
+  {
+    "nom": "FAR — Forces Armées Royales : Officiers (ARM, ERA, ERN)",
+    "cat": "Militaire",
+    "villes": [
+      "Meknès (ARM)",
+      "Marrakech (ERA)",
+      "Casablanca (ERN)"
+    ],
+    "ouv": null,
+    "clo": "2026-05-29",
+    "lien": "https://recrutement.far.ma",
+    "modalite": "Sélection + écrit + tests médicaux + oral phys.",
+    "concours": "Mai 2026",
+    "note": "Bac Maths/PC (ERA/ERN) ou toutes séries (ARM). Âge 18-22 ans, célibataire, taille ≥1,65m. Sélection sur moy bac → dossier médical → tests physiques + psycho → oral. Via recrutement.far.ma"
+  },
+  {
+    "nom": "FAR — Forces Armées Royales : Sous-Officiers (Forces terrestres, ERA, ERN)",
+    "cat": "Militaire",
+    "villes": [
+      "Divers centres (Forces terrestres)",
+      "Marrakech (ERA)",
+      "Casablanca (ERN)"
+    ],
+    "ouv": null,
+    "clo": "2026-05-29",
+    "lien": "https://recrutement.far.ma",
+    "modalite": "Sélection + tests médicaux + phys.",
+    "concours": "Mai 2026",
+    "note": "Bac scientifique. Âge 18-23 ans (16 août). Taille ≥1,60m. Sélection sur bac + tests physiques + médical. Via recrutement.far.ma"
+  },
+  {
+    "nom": "ERSSM — Santé Militaire (Médecine, Pharmacie, Dentaire)",
+    "cat": "Militaire",
+    "villes": [
+      "Rabat"
+    ],
+    "ouv": null,
+    "clo": "2026-05-29",
+    "lien": "https://recrutement.far.ma",
+    "modalite": "Sélection + écrit + tests médicaux + phys.",
+    "concours": "Mai 2026",
+    "note": "Bac Maths/SVT/PC. Âge 18-22 ans, taille ≥1,65m. Sélection + dossier médical + tests physiques + psycho. Via recrutement.far.ma"
+  },
+  {
+    "nom": "Forces Auxiliaires — Officiers",
+    "cat": "Militaire",
+    "villes": [
+      "Meknès"
+    ],
+    "ouv": null,
+    "clo": "2026-05-29",
+    "lien": "https://recrutement.fa.gov.ma",
+    "modalite": "Sélection + tests médicaux + phys.",
+    "concours": "Mai 2026",
+    "note": "Bac toutes séries. Âge 18-22 ans. Via recrutement.fa.gov.ma"
+  },
+  {
+    "nom": "Gendarmerie Royale — Élève Gendarme (Mdariss Addarek Almalaki)",
+    "cat": "Militaire",
+    "villes": [
+      "Plusieurs centres nationaux"
+    ],
+    "ouv": "2026-03-25",
+    "clo": "2026-04-15",
+    "lien": "https://recrutement.gr.ma",
+    "modalite": "Sélection + écrit + aptit. phys. + médical",
+    "concours": "Avril 2026",
+    "note": "Bac toutes séries. Âge 18-24 ans, célibataire. Sélection + Écrits (Jdwl, Français) + Tests physiques + Médical + Oral. Centres : Rabat, Casa, Fès, Marrakech, Oujda, Agadir, Tanger, Meknès, Settat… Via recrutement.gr.ma"
+  },
+  {
+    "nom": "IRP — Institut Royal de Police",
+    "cat": "Militaire",
+    "villes": [
+      "Kénitra"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "http://concours.interieur.gov.ma",
+    "modalite": "Sélection + écrit + tests phys. + médical",
+    "concours": null,
+    "note": "Grades : Garde (bac), Officier (bac+Licence). Âge 21-30 ans. Sélection + écrits + tests physiques + médical + psycho. Via concours.interieur.gov.ma"
+  },
+  {
+    "nom": "IRAT — Institut Mlki Llidara Tarrabia",
+    "cat": "Militaire",
+    "villes": [
+      "Rabat"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "http://concours.interieur.gov.ma",
+    "modalite": "Concours",
+    "concours": null,
+    "note": "Administration territoriale. Pour fonctionnaires et civils, principalement Bac+2/Licence. Via concours.interieur.gov.ma"
+  },
+  {
+    "nom": "ENPC — École Nationale de Protection Civile",
+    "cat": "Militaire",
+    "villes": [
+      "Benslimane"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://www.protection-civile.ma",
+    "modalite": "Concours",
+    "concours": null,
+    "note": "Formation officiers et sous-officiers protection civile. Concours spécifique (bac requis). Tests physiques + médicaux + écrits."
+  },
+  {
+    "nom": "CPGE — Classes Préparatoires aux Grandes Écoles",
+    "cat": "Prépa",
+    "villes": [
+      "National (lycées publics et privés)"
+    ],
+    "ouv": null,
+    "clo": null,
+    "lien": "https://www.cursussup.gov.ma",
+    "modalite": "Sélection sur dossier bac",
+    "concours": null,
+    "note": "Bac Maths/PC/Tech selon filière (MPSI, PCSI, TSI, BCPST, ECG, HEC, Littéraire). Sélection 75% national + 25% régional sur moyenne bac. 2 ans → accès grandes écoles via concours CNC/CNAEM/CPNA. Via cursussup.gov.ma"
+  }
+]

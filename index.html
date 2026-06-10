@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Deciplan — Suivi Personnalisé</title>
+  <link rel="stylesheet" href="style.css">
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-R715S7B354"></script>
+  <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','G-R715S7B354');</script>
+</head>
+<body>
+
+<!-- ════════ ÉCRAN DE VERROUILLAGE (3 états : home / cin / error) ════════ -->
+<div id="lockScreen" class="lock-screen">
+
+  <!-- ÉTAT 1 : Page d'accueil (si pas de ?e=) -->
+  <div class="lock-card" id="lockHome" hidden>
+    <div class="lock-logo">🎓</div>
+    <h1 class="lock-title">Deciplan</h1>
+    <p class="lock-sub">Espace personnel de suivi · Post-Bac 2026</p>
+    <div class="lock-home-body">
+      <p class="lock-home-text">
+        Bienvenue sur votre espace de suivi personnalisé.<br>
+        Pour y accéder, utilisez le <strong>lien personnel</strong> qui vous a été envoyé par votre conseiller d'orientation.
+      </p>
+      <div class="lock-home-info">
+        💡 Le lien ressemble à : <code>deciplan.com/?e=prenom-nom</code>
+      </div>
+    </div>
+    <div class="lock-help">
+      💬 Vous n'avez pas reçu de lien ? Contactez M. Abounaim :<br>
+      <a href="https://wa.me/212600072570">📞 06 00 07 25 70</a> ·
+      <a href="mailto:mustapha.abounaim@gmail.com">✉️ Email</a>
+    </div>
+  </div>
+
+  <!-- ÉTAT 2 : Saisie CIN -->
+  <div class="lock-card" id="lockCin" hidden>
+    <div class="lock-logo">🔒</div>
+    <h1 class="lock-title">Deciplan</h1>
+    <p class="lock-sub">Espace sécurisé · Saisissez votre CIN</p>
+    <form id="lockForm" class="lock-form">
+      <label class="lock-label" for="cinInput">Votre CIN (Carte d'Identité Nationale)</label>
+      <input
+        type="text"
+        id="cinInput"
+        class="lock-input"
+        placeholder="Ex : AB123456"
+        autocomplete="off"
+        autocapitalize="characters"
+        spellcheck="false"
+        required>
+      <button type="submit" id="lockBtn" class="lock-btn">🔓 Déverrouiller</button>
+      <div id="lockMsg" class="lock-msg"></div>
+    </form>
+    <div class="lock-help">
+      💬 Aide : contactez M. Abounaim au
+      <a href="https://wa.me/212600072570">06 00 07 25 70</a>
+    </div>
+  </div>
+
+  <!-- ÉTAT 3 : Erreur (identifiant inconnu) -->
+  <div class="lock-card lock-card-error" id="lockError" hidden>
+    <div class="lock-logo lock-logo-err">❌</div>
+    <h1 class="lock-title">Lien invalide</h1>
+    <p class="lock-sub">L'identifiant de cet espace est introuvable</p>
+    <div class="lock-home-body">
+      <p class="lock-home-text">
+        Le lien que vous avez utilisé ne correspond à aucun espace personnel.
+        Vérifiez le lien que votre conseiller vous a envoyé.
+      </p>
+    </div>
+    <div class="lock-help">
+      💬 Besoin d'aide ? Contactez M. Abounaim :<br>
+      <a href="https://wa.me/212600072570">📞 06 00 07 25 70</a>
+    </div>
+  </div>
+
+</div>
+
+<!-- ════════ CONTENU PRINCIPAL (caché tant que pas déverrouillé) ════════ -->
+<div id="mainContent" hidden>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="hero-inner">
+    <div class="hero-brand">
+      <span class="hero-emoji">🎓</span>
+      <div>
+        <div class="hero-title">Deciplan</div>
+        <div class="hero-sub">Suivi personnalisé des inscriptions Post-Bac 2026</div>
+      </div>
+    </div>
+    <div class="hero-actions">
+      <button class="btn-print" id="btnPrint">🖨️ Imprimer</button>
+      <button class="dark-toggle" id="darkToggle">🌙</button>
+      <button class="btn-lock" id="btnLock" title="Verrouiller">🔒</button>
+    </div>
+  </div>
+</div>
+
+<!-- BANDEAU BAC -->
+<div class="bac-banner" id="bacBanner">
+  <div class="bac-banner-inner">
+    <div class="bac-alerts"><span class="bac-warn">⚠</span><span class="bac-warn">⚠</span></div>
+    <span class="bac-icon">🎓</span>
+    <span class="bac-text" id="countdownBac">⏳ Calcul…</span>
+    <span class="bac-icon">🎓</span>
+    <div class="bac-alerts"><span class="bac-warn">⚠</span><span class="bac-warn">⚠</span></div>
+  </div>
+</div>
+
+<div class="container">
+
+  <!-- PROFIL -->
+  <div class="profile-card">
+    <img class="profile-photo" id="profile-photo" src="" alt="Photo">
+    <div class="profile-details">
+      <div class="profile-name" id="profile-nom">—</div>
+      <div class="profile-sub" id="profile-filiere">—</div>
+      <div class="profile-tags" id="profile-tags"></div>
+    </div>
+  </div>
+
+  <!-- NOTES -->
+  <div class="notes-card">
+    <div class="notes-title">📊 Notes scolaires</div>
+    <div class="notes-body">
+      <div class="notes-year">
+        <div class="notes-year-title">1ère Année Bac</div>
+        <div class="notes-row">
+          <div class="note-box"><div class="note-label">Semestre 1</div><div class="note-val" id="an1_s1">—</div></div>
+          <div class="note-box"><div class="note-label">Semestre 2</div><div class="note-val" id="an1_s2">—</div></div>
+          <div class="note-box note-box-main"><div class="note-label">Moyenne</div><div class="note-val" id="moy_an1">—</div></div>
+        </div>
+      </div>
+      <div class="notes-divider"></div>
+      <div class="notes-year">
+        <div class="notes-year-title">2ème Année Bac</div>
+        <div class="notes-row">
+          <div class="note-box"><div class="note-label">Semestre 1</div><div class="note-val" id="an2_s1">—</div></div>
+          <div class="note-box"><div class="note-label">Semestre 2</div><div class="note-val" id="an2_s2">—</div></div>
+          <div class="note-box note-box-main"><div class="note-label">Moyenne</div><div class="note-val" id="moy_an2">—</div></div>
+        </div>
+      </div>
+      <div class="notes-divider"></div>
+      <div class="notes-year">
+        <div class="notes-year-title">Synthèse Bac</div>
+        <div class="notes-row">
+          <div class="note-box note-box-reg"><div class="note-label">Moy. régionale</div><div class="note-val" id="moy_reg">—</div></div>
+          <div class="note-box"><div class="note-label">Moy. nationale</div><div class="note-val" id="moy_nationale">—</div></div>
+          <div class="note-box"><div class="note-label">Moy. gén. Bac</div><div class="note-val" id="moy_gen_bac">—</div></div>
+          <div class="note-box note-box-gold"><div class="note-label">25% rég. + 75% nat.</div><div class="note-val" id="moy_25reg_75nat">—</div></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- CONSEIL -->
+  <div class="conseil-card">
+    <div class="conseil-icon">💬</div>
+    <div>
+      <div class="conseil-title">Note de M. Mustapha Abounaim — Conseiller d'orientation · Casablanca</div>
+      <div class="conseil-text" id="conseil-text">—</div>
+    </div>
+  </div>
+
+  <!-- STATS -->
+  <div class="stats-row" id="stats-row"></div>
+
+  <!-- SECTION -->
+  <div class="section-header">
+    <h2 class="section-title">📋 Mes candidatures</h2>
+    <span class="section-badge" id="nb-cand">—</span>
+  </div>
+
+  <!-- TABLEAU desktop -->
+  <div class="table-wrap" id="table-desktop">
+    <table>
+      <thead>
+        <tr>
+          <th class="c-num">#</th>
+          <th class="c-ecole">Établissement / Programme</th>
+          <th class="c-id">Identifiant</th>
+          <th class="c-pwd">Mot de passe</th>
+          <th class="c-ville">Ville</th>
+          <th class="c-date">Date insc.</th>
+          <th class="c-conc">Concours</th>
+          <th class="c-recu">Reçu</th>
+          <th class="c-statut">Statut</th>
+          <th class="c-liste">Liste princ.</th>
+          <th class="c-att">Att. 1</th>
+          <th class="c-att">Att. 2</th>
+          <th class="c-att">Att. 3</th>
+          <th class="c-lien">Lien</th>
+        </tr>
+      </thead>
+      <tbody id="tbody"></tbody>
+    </table>
+  </div>
+
+  <!-- CARTES mobile -->
+  <div id="cards-mobile"></div>
+
+  <!-- FOOTER -->
+  <div class="footer">
+    <div class="footer-left">
+      <span>🎓 © 2026 Deciplan · <em>plan your future</em></span>
+    </div>
+    <div class="footer-right">
+      M. Abounaim ·
+      <a href="https://wa.me/212600072570">📞 06 00 07 25 70</a> ·
+      <a href="mailto:mustapha.abounaim@gmail.com">✉️ Email</a>
+    </div>
+  </div>
+
+</div>
+</div><!-- /#mainContent -->
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -118,7 +118,7 @@ function buildVilles(){
   villes.forEach(function(v){ var o=document.createElement('option'); o.value=o.textContent=v; s.appendChild(o); });
 }
 function buildBacs(){
-  var ORDER=['SM','SE','STM','ECO','LSH','ART'];
+  var ORDER=['SMA/AMB','PC/SVT/AGRO','STE/STM','ECO/GESTION','LSH/L','ART'];
   var seen={};
   allData.forEach(function(r){
     (r.filieres||[]).forEach(function(f){ if(f&&f.code) seen[f.code]=f.label||f.code; });

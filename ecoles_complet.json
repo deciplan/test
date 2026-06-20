@@ -161,17 +161,13 @@
     "note": "Importnat: Le concours est basé sur le cadre référentiel des examens nationaux en Sciences expérimentales",
     "filieres": [
       {
-        "code": "SM",
+        "code": "SMA/AMB",
         "label": "Sciences Mathématiques"
       },
       {
-        "code": "SE",
+        "code": "PC/SVT/AGRO",
         "label": "Sciences Expérimentales"
       },
-      {
-        "code": "STM",
-        "label": "Sciences et Technologies"
-      }
     ]
   },
   {
@@ -201,15 +197,15 @@
     "note": "75% national + 25% régional. Test TAFEM. 13 villes. Dates à confirmer.",
     "filieres": [
       {
-        "code": "SM",
+        "code": "SMA/SMB",
         "label": "Sciences Mathématiques"
       },
       {
-        "code": "SE",
+        "code": "PC/SVT/AGRO",
         "label": "Sciences Expérimentales"
       },
       {
-        "code": "ECO",
+        "code": "ECO/GES",
         "label": "Sciences Économiques et Gestion"
       }
     ]
